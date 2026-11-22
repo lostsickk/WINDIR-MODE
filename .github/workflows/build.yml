@@ -26,7 +26,7 @@ jobs:
       - name: Compile WINDIR MODE
         run: |
           make clean
-          make package FINALPACKAGE=1
+          make FINALPACKAGE=1
 
       - name: Collect dylib
         run: |
